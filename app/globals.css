@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .menu-items{
+        @apply text-sm hover:underline underline-offset-4 hover:decoration-rose-500
+    }
+}
